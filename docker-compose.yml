@@ -19,7 +19,7 @@ services:
      container_name: lafs-db
      image: 'mongo:4'
      ports:
-     - '271017:27017'
+     - '27017:27017'
 
 # Attach the external network to these containers
 networks:
